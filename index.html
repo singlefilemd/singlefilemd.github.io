@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="icon" href="data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAZhtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAANGlsb2MAAAAAREAAAgACAAAAAAG8AAEAAAAAAAAE0gABAAAAAAaOAAEAAAAAAAAHJwAAADhpaW5mAAAAAAACAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAFWluZmUCAAAAAAIAAGF2MDEAAAAA12lwcnAAAACxaXBjbwAAABNjb2xybmNseAACAAIABoAAAAAMYXYxQ4EAHAAAAAAUaXNwZQAAAAAAAADQAAAAxwAAAA5waXhpAAAAAAEIAAAAOGF1eEMAAAAAdXJuOm1wZWc6bXBlZ0I6Y2ljcDpzeXN0ZW1zOmF1eGlsaWFyeTphbHBoYQAAAAAMYXYxQ4EADAAAAAAUaXNwZQAAAAAAAADQAAAAxwAAABBwaXhpAAAAAAMICAgAAAAeaXBtYQAAAAAAAAACAAEEgYYHiAACBIIDhIUAAAAaaXJlZgAAAAAAAAAOYXV4bAACAAEAAQAADAFtZGF0EgAKBhgd8/GYVDLFCRIACihQtP/t4zEqRu8GVR43uSuNSy5M/PlJxGkLVs+suXxlQKDtzZg5dbEEmMGIIB3sHn9R92SfeK19XTRqvK4ejdEAHb1Dr3AWAKUXp1+cu2VAEUNYS30Q7EDTN6Wp+yUZWQQUrop2MUIv/fG5x6v0ZiuZAADtD8Q7apIpBmwrZsypXFLRNvPJluCVDkTexFyFdLMFmbk+OQ1Pxz6EiEhwWH8aV8xAV5UEv+MTIB2qfpcWgblpXs6Urb0exI7afqt7lH8dt3kO5i8FLEb8MvO3TK2JyS2jmdJTh37N1i1GGRGDEub6HLBCm7n2Gr/6tXRrHGUJfOlxQ/M15b0Yq/fNil+IWq8Cy9xzktT+07MD+sApdfnSrXXuwRpT/JcJt8Nv2t9KK5lBt4N81rI7Mh0MY9UnMAf78neypFgf3kIKMb1GzaD/now14TViERtlf2gS7H4uiax8gcLhgduaEYXuZGbyoEyrqwq4Hl8pNiYOcc4jW/sCMUimSRw2J9ZR24n/GvQKKAC5znRHJQ+huyx4sypAfRIgprV8oNL0RtwTbgbVwCIJf2mbBQ9tE8u7oyqrCFfC47xQZXtW7J0lnZljFnj9E0OTz+9pCv2bUpf+eI8iibrJ9+RbV6A5/QPh07CvZaqJ0cre6Nm8mnxmRrPIDfmZK1A5tY2HCLj1eR7JLMdhpm8NydkdYtACXzfo6sGw86bd8M+G/QIL5z4KI+/hsWNzhWRp0UvbcirpobOaTSPM5sgrdGj3c19smgnGD5bJr/N8CZoG37spkmUESly+dihxTbPH87f8kKaSF6HwfMi9oekA+/vnFa1s6oMC3Vl5qK3iMfnoUME2ntLmGYhruA5vJ5NcNjPIKnqNQJNaVgDXsunts3SS+BCp4DXdAXezRALB4MsscOCt2pNHxnRdRJhljcOVFoBcuAEp6Y235LNqAU9Yv9CkBRW0Wx7PIw99cd4JYIg+625xvAbCTU0PL5DsvFnLAOmlQu+bOL5ClkTgx8ekpZxoE2nJYkaUBmZ2AJfuWBPk4Vgou8Dx31XpjZBloB7sjlztAAEG4lkxAcgdXu3BLvsu6wANsNVo0USCF3K2ewYWs+OFDrTc4E5+U7r07dUzLQv17+a8mQgMhX6bFyBqoN62MtSlNhHoZVA8cRbNpFyk0XZmLXqOC4XjiOlZ6Dn1rzgJjOxft6b9VLLr+QJgKgiAEYirufSaKXLWMNCyCAv6tPdrlXeaTp1OvucObbwkSXqCacR7w4ZkYDEKFE2iusb+m46RDnsA9HoSwRH9MyJdYdGLuwDnXGxDBeTSPyyD79C0+DuPVC3S+5WIZRPjVDCqZ08hZ7QFThd0XOeTeaXteDU4DspBJDc2dAo0a6qMuKkEkoaLtY3qBa8jUPtAF3GXOaSIcr0unJO74u4bgLJToeeoYGq+1yn2iT/lzksgypxNmOyDeKdhAFmaEaa3magEg8ZTLMMkDqW/y5gg30it1CVS8BtbtD0h8GOJw6D0YeX785YFw1Y4YKikYOhSIXopUKvHqsK2hNy+Yv8WungQGz8M39Eemv5eB57i4ZL5wJ/n0JZiNkorEn13O6Z8tdeqcuNHKl80bCPwI+2nHbvRqN/goD7VqBZlSVAG+BIACgcYHfPxmBCAMpkOEgACiiihQLSBsSMv9JkQBo8ss86FeAYZRD9aKk+fEXq5qSt6bdRl77oNfk93585JKKVt4+oGTQZkkHumi6D8brA8mxJkAw1iQ31GSyWqHE3NpA/PkF5hTDbIYC2XYlRKEV4Kwe0NLduUFLC7mPtkeahtZDIayHyIuxZiJdVSdYuTx5xnFO1D34EaRqVuGe6vRqHpp18iXfPsw9ChztS4F7nsN1DU1WikCqf39oAMAFGzSZy7EkWqsKGz5wkGL27hXOvFel6Y6vAl8zN+i7qflOxHyd+yizLy1pC+7MxXucZ7PrEmcCL085/nlv2GRwdsxLbQAUmz61onDRHf0MytMr6nsfXRg9pJqpCyQHaDadvZ/NR9rMpmd0hfiYONR3Sua+Mpe9pA3hcP4via8MqWY+eVI8zb83TexGf/+G2/hdDF92os46ThhIIqDtKD4LVQpH5793RYBG2AKARh1aBV0+qHS2CYFkTM5bbtvOzqpvM6CCJT6AtZnU8OE9Uv6/f9EcAs/ricnPWLMGzjOXdCvd9kRHrbvKrsfgSKr4r7ms5dWG2sk0nAjKtxW7spEMi07BaBRzuBiekOAvnVuzQqZYhGXD3c1ips82w7heNUdpSLSCotAezBP/HX2lfdpmVSlc2wKoNAQsuGIibrpXfmtTg5l0wivRwIk9h9qyh6TEbW1YuAM2roYYcqo4sKeDBnLJ4TUNjXFlFHeDpQboZAAzKW2CNiyPZV7dyJpibZHUN9uyrHhNXyoRjGrWuYjHy+Hl5EiI/6eS1R1VS5pbKri1kPvq4+yWpjRr9HvGQQk7vkvHnV1LOWZhok4njo7eus0HVnSPR4zxDfTkYmmTRdbEz8dRUL6knVw48oDR5R2YKN7fFY9dJ1fkUU5r5PUPegeYU5rUW9XuK4tLr0oHC2yMdbSTC275iDepL1daJe5hbfeIaSpV5SoANncRW6YMijXG6OJ50ZpkCmSbKZ/FSnfChcABjkdpMdO3gpCg4uqJCEKro2Ims8CoS+P1VWqwkBn3XYRdfEue2mVhKHQXOgIMVCvXDxKvFhlgRusbJdko2sdVGLXS0f2dCfMHQJgpEjQxe124JvNtVk89UDOSPJ0WNdrPRGkz9NYn9HAs7FmdjG4JidzbdZMeTcosciGaG7hC7AgUoD/VhcTDG3QnjccBxvZkgagwN5dDPPxkBsqhxEoAvkipdiwmvkT7c2KguSDiXeH2KD3TCMYiBLvVHVRrZR0Mqh8IPRJKmRU1cdoDIHSeuIwDOK9D2VnMKi8WLDfNXzpsS96INSWYQfUdtpskYefHBkQpLjO9EWXUQUKn9YL30HDk4pg8sXLK1aOugO3y97WmCPzC3sTf0F+r/RBz8V6soYiidFiYx0ISKlGdA81spTNW1YDTZDqyR/YuIJ3nMtGF+ku0hWJlFdx/PRG69N5Tqkyb3q00JomwOvMTL5JwvNgUzb7kMu/r8sHHAI1l+C2QyPwn01w3JzaQInju9BSF3/V0+MO6Ev88Z76Uls/wLs2Gp2Gyr4E/ykcsA02bIcyM8Ss/ytbkERK4gjxfg9nA10XdazfOAqq82v229DuZltpsQvGK7UJ7T7s49DWvp5oEfWnPOyjFg0kwhFK0mIImUWjf2dYn3WmXS7lRYIK5OaxMHnAM8ta+NR2TXCPROwR57Drvx7GojPlM/qIT/44iYAlPOhguH7N6RAZKyoig8FJE6PZd6A8Ty0nNI2kLBbMSzRMRP7RDvqK99N/goczN6Wc5tr5WpufDTxzmeTrDuRdmDqlnFRUXuzIRFYpblZAijTELoQtnbRO14iQiT0HKLFL/yvfIHR56cfgGUosfanU1rCDQMDE1ogoZBv+Pw/lfPxpvBoZPmONLHx8HXJrPpYMBheapIk4DCcUBt/cHrnjdT4h2Le5gUk0qcza2SOm9WffW4ibIEFeOdpjhaL0z+GwyisGDvsoi236nzaUCyiek47Q27Y/8n9KhOmoBv+zxJxEAmmf8CogSCBJozmQJvXHO8G/Pp1Q3/yPDztvJFNQ99tTW4nhUCNAdmLHUU5Otva4tok+BTTthzP//bx8ZmDe2S3jBvRjMkUM7oakFf6UgxQV1ikbvRnH918uunOWXmFNHs24E+9s5O9nN0Ftjx486bQVTLDHR0ONhT69X+aBfcDSij7fm54OLW6BqmSZpc6pKnjwj/rSsVzOJWysfokYEArjcWVUelPAkDFGf8cm//DfMT17SWfKgIQR6V3pj7RDdTSX/w15AWkM1y6zKgF6OZeqPDTSCUa7lJmv8E31FRVr22XSbiZnSISqfviV5+utCLW01iKdwGkJ3MfVEocDZRcpjumtC0s/pDGYJ3JPsJD5hRveC8QvG/MUpnUffaISKWS0K76wEM7LMY4gAuDBCT5yJ0o5449vHo0aYkJhcyADUA=" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+<style>    
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 1.5em;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+</style>    
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Single-file Markdown</title>
+</head>
+<body>
+  <div id="app">
+    <div id="step1">
+      <h1>Single-file Markdown Generator</h1>
+      <p>This website helps you to integrate the referenced images into the markdown file, using the <a href="https://en.wikipedia.org/wiki/Data_URI_scheme" target="_blank">Data URI scheme</a>. All the opened files are processed within your browser and not uploaded to any server, so your privacy is protected. Please click the button below to start.</p>
+      <div id="step1div"></div>
+      <div class="card">
+        <button id="openMD" class="pure-button pure-button-active" type="button">Open a Markdown File with Images</button>
+      </div>
+    </div>
+    <div id="step2" style="display:none">
+      <div id="step2div"></div>
+      <div class="card">
+        <button id="openIMG" class="pure-button pure-button-active" type="button">Open Image Files</button>
+      </div>
+    </div>
+    <div id="step3" style="display:none">
+      <div id="step3div"></div>
+      <div class="card">
+        <button id="downloadMD" class="pure-button pure-button-active" type="button">Download Compressed Single-file Markdown</button>
+      </div>
+      <hr/>
+      <div id="preview" style="text-align: left"></div>
+    </div>
+  </div>
+<script type="module">
+import {fileOpen, fileSave} from 'https://cdn.jsdelivr.net/npm/browser-fs-access@0.35.0/+esm'
+import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
+import { encode } from "https://unpkg.com/@jsquash/avif?module";
+
+function parseMarkdown(mdStr) {
+	console.log(mdStr);
+	const imgRE = RegExp(`(\\!\\[.*\\]\\()(.*)\\)`, 'g');
+	let matchList;
+	let start = 0;
+	let textList = [];
+	let imgFileList = [];
+
+	while ((matchList = imgRE.exec(mdStr)) !== null) {
+		textList.push(mdStr.substring(start, imgRE.lastIndex - matchList[0].length) + matchList[1]);
+		imgFileList.push(matchList[2].split(/[\\/]/).pop());
+		start = imgRE.lastIndex;
+	}
+	textList.push(mdStr.substring(start));
+	return [textList, imgFileList];
+}
+
+function blobToBase64(blob) {
+  return new Promise((resolve, _) => {
+    const reader = new FileReader();
+    reader.onloadend = () => resolve(reader.result);
+    reader.readAsDataURL(blob);
+  });
+}
+
+async function loadImage(src) {
+  const img = document.createElement('img');
+  img.src = src;
+  await new Promise(resolve => img.onload = resolve);
+  const canvas = document.createElement('canvas');
+  [canvas.width, canvas.height] = [img.width, img.height];
+  const ctx = canvas.getContext('2d');
+  ctx.drawImage(img, 0, 0);
+  return ctx.getImageData(0, 0, img.width, img.height);
+}
+
+
+async function compressAndEncode(inputString) {
+    const encoder = new TextEncoder();
+
+    // Create a ReadableStream from the input string
+    const inputReadableStream = new ReadableStream({
+        start(controller) {
+            controller.enqueue(encoder.encode(inputString));
+            controller.close();
+        }
+    });
+
+    // Compress the ReadableStream using the gzip algorithm
+    const compressedStream = inputReadableStream.pipeThrough(new CompressionStream("gzip"));
+
+    // Read the compressed data from the stream
+    const reader = compressedStream.getReader();
+
+    let compressedData = new Uint8Array();
+    let result;
+
+    while ((result = await reader.read())) {
+        if (result.done) {
+            return compressedData;
+        } else {
+            compressedData = new Uint8Array([...compressedData, ...result.value]);
+        }
+    }
+}
+
+async function decompressAndDecode(compressedData) {
+    const decoder = new TextDecoder();
+
+    // Create a ReadableStream from the compressed data
+    const compressedStream = new ReadableStream({
+        start(controller) {
+            controller.enqueue(compressedData);
+            controller.close();
+        }
+    });
+
+    // Decompress the ReadableStream using the gzip algorithm
+    const decompressedStream = compressedStream.pipeThrough(new DecompressionStream("gzip"));
+
+    // Read the decompressed data from the stream
+    const reader = decompressedStream.getReader();
+
+    let decompressedData = "";
+    let result;
+
+    while ((result = await reader.read())) {
+        if (result.done) {
+            return decompressedData;
+        } else {
+            decompressedData += decoder.decode(result.value);
+        }
+    }
+}
+
+let mdFilename;
+let textList;
+let imgFilenameList;
+let imgFilenameSet;
+let finalText;
+let imgMap = new Map();
+
+document.querySelector('#openMD').addEventListener('click', async () => {
+	const fileObj = await fileOpen({mimeTypes: ["text/markdown"]});
+	const content = await fileObj.text();
+	mdFilename = fileObj.name.replace(/\.[^/.]+$/, ""); //remove the ".md" extension
+	//console.log(content);
+	[textList, imgFilenameList] = parseMarkdown(content)
+	if(imgFilenameList.length == 0) {
+		document.querySelector('#step1div').innerHTML = `<p><b>This file "${mdFilename}" contains no images, Please select another one.<b></p>`;
+		return;
+	}
+	imgFilenameSet = new Set(imgFilenameList);
+	let html = `<p>The "${mdFilename}" file contains the following images:</p>`;
+	html += '<ol style="text-align: left">';
+	for(const img of imgFilenameSet.values()) {
+		html += `<li>${img}</li>`
+	}
+	html += '</ol><p>Please click the button below to open them.';
+	document.querySelector('#step2div').innerHTML = html;
+	document.querySelector('#step1').style.display = "none";
+	document.querySelector('#step2').style.display = "block";
+});
+
+// 没有图片时，直接跳到第三步
+
+document.querySelector('#openIMG').addEventListener('click', async () => {
+	const imgObjList = await fileOpen({
+		mimeTypes: ['image/*'],
+		multiple: true,
+	});
+	const gotImgFilenameSet = new Set(imgObjList.map((x) => x.name));
+	const hasMissing = [...imgFilenameSet.values()].find((x) => !gotImgFilenameSet.has(x));
+	if(hasMissing !== undefined) {
+		let html = `<p>The "${mdFilename}" file contains the following images:</p>`;
+		html += '<ol style="text-align: left">';
+		for(const img of imgFilenameSet.values()) {
+		    console.log(gotImgFilenameSet, img);
+		    if(gotImgFilenameSet.has(img)) {
+				html += `<li>${img}</li>`
+			} else {
+				html += `<li>${img}<span style="color:red">(You did not open this file.)</span></li>`
+			}
+		}
+		html += '</ol><p>Please click the button below to open <b>ALL OF THEM</b>.';
+		document.querySelector('#step2div').innerHTML = html;
+	} else {
+		for(const img of imgObjList) {
+			//console.log(img.name, await blobToBase64(img));
+			imgMap.set(img.name, await blobToBase64(img));
+		}
+	    document.querySelector('#step2').style.display = "none";
+	    document.querySelector('#step3').style.display = "block";
+		convertFiles();
+	}
+});
+
+async function convertFiles() {
+    let count = 0;
+	let toBeConverted = []
+	for(const name of imgMap.keys()) {
+	    const noConv = name.endsWith(".svg") || name.endsWith(".avif") || name.endsWith(".SVG") || name.endsWith(".AVIF")
+		if(noConv) continue;
+	    count++;
+		toBeConverted.push(name);
+	}
+	let step3div = document.querySelector('#step3div');
+	for(const [index, name] of toBeConverted.entries()) {
+        const rawImageData = await loadImage(imgMap.get(name));
+        const avifBuffer = await encode(rawImageData);
+        console.log(avifBuffer);
+		var str = String.fromCharCode.apply(null, new Uint8Array(avifBuffer));
+        imgMap.set(name, 'data:image/avif;base64,' + btoa(str));
+	    step3div.innerHTML = `<p>Converting PNG/JPG/WEBP Images to AVIF Format: ${index+1}/${toBeConverted.length}.</p>`;
+	}
+	step3div.innerHTML += `<p>The images have been converted. You can download the compressed single-file markdown afer checking its preview below.</p>`;
+	finalText = "";
+	for(const [index, text] of textList.entries()) {
+	    finalText += text;
+		if(imgFilenameList.length > index) {
+	        const imgFilename = imgFilenameList[index];
+	        finalText += imgMap.get(imgFilename) + ")";
+		}
+	}
+    document.getElementById('preview').innerHTML = marked.parse(finalText);
+}
+
+document.querySelector('#downloadMD').addEventListener('click', async () => {
+    const blob = await compressAndEncode(finalText);
+    console.log(await decompressAndDecode(blob));
+    await fileSave(blob, {fileName: mdFilename+"_md", extensions: ['.gz']});
+});
+
+</script>
+</body>
+</html>
